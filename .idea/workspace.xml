@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b0a6363-0e56-410d-af47-15656e63fe90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/config/security/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/config/security/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/config/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/config/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/controller/AdminController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/entity/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/mapper/AdminMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/mapper/xml/AdminMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/AdminService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/impl/AdminServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/test/java/com/ever/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/test/java/com/ever/MemberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/config/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/config/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/entity/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/mapper/AdminMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/impl/AdminServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/test-classes/com/ever/MemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/test-classes/com/ever/MemberTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="3b0a6363-0e56-410d-af47-15656e63fe90" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +152,7 @@
       <workItem from="1612529054387" duration="90000" />
       <workItem from="1612529162455" duration="4764000" />
       <workItem from="1612600395894" duration="15953000" />
-      <workItem from="1612664891674" duration="2791000" />
+      <workItem from="1612664891674" duration="2875000" />
     </task>
     <servers />
   </component>
@@ -202,6 +176,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="350" y="191" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612434744106" />
+    <state x="193" y="0" key="CommitChangelistDialog2" timestamp="1612669123950">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="193" y="0" key="CommitChangelistDialog2/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612669123950" />
     <state width="1237" height="257" key="GridCell.Tab.0.bottom" timestamp="1612667027262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
