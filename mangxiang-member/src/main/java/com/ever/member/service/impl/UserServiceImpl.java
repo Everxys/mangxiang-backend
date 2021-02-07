@@ -14,11 +14,14 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -66,9 +69,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         if(null==userDetails||!passwordEncoder.matches(password,userDetails.getPassword())) {
             return RespBean.error("用户名或密码不正确");
         }
-        if(!userDetails.isEnabled()){
-            return RespBean.error("账号被禁用,请联系管理员!");
-        }
 
 
         /**
@@ -96,7 +96,45 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     @Override
     public User getUserByUserName(String username) {
         return userMapper.selectOne(new QueryWrapper<User>()
-                .eq("username",username)
-                .eq("enabled",true));
+                .eq("username",username));
     }
+
+    /**
+     * 注册
+     */
+    @Override
+    public RespBean register(String username, String password, String code, HttpServletRequest request) {
+        //用户名存在
+        if(isUsernameExist(username)){
+            return RespBean.success("用户名已存在,请登录!");
+        }else {
+            registerUser(username, password);
+            return RespBean.success("注册成功,请登录!");
+        }
+    }
+    /**
+     * 查询用户名是否存在于数据库中,用户存在,返回true,用户不存在,返回false
+     */
+    public Boolean isUsernameExist(String username){
+        HashMap<String,Object> map= new HashMap<>();
+        ArrayList list=new ArrayList();
+        map.put("username",username);
+        List<User> result=userMapper.selectByMap(map);
+        if (result.equals(list) ){
+            return false;
+        }else {
+            return true;
+        }
+    }
+
+    /**
+     * 如果用户名不存在,注册用户
+     */
+    public void registerUser(String username,String password){
+        User user=new User();
+        user.setUsername(username);
+        user.setPassword(new BCryptPasswordEncoder().encode(password));
+        userMapper.insert(user);
+    }
+
 }

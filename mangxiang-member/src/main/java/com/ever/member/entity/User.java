@@ -12,15 +12,17 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.AccessLevel;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import org.springframework.boot.ansi.AnsiOutput;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author Everxys
@@ -44,8 +46,6 @@ public class User implements Serializable, UserDetails {
     @ApiModelProperty(value = "密码")
     private String password;
 
-    @ApiModelProperty(value="是否启用")
-    private Boolean enabled;
 
     @ApiModelProperty(value = "姓名")
     private String name;
@@ -100,6 +100,8 @@ public class User implements Serializable, UserDetails {
 
     @Override
     public boolean isEnabled() {
-        return enabled;
+        return true;
     }
+
+
 }

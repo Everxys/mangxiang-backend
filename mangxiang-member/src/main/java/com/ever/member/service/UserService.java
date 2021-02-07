@@ -19,4 +19,6 @@ public interface UserService extends IService<User> {
     RespBean login(String username, String password, String code, HttpServletRequest request);
     //根据用户名获取用户
     User getUserByUserName(String username);
+    //注册
+    RespBean register(String username, String password, String code, HttpServletRequest request);
 }

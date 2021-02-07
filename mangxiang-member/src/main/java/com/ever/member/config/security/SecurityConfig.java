@@ -16,7 +16,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
- * @DESCRIPTION: Security配置类
+ * Security配置类
+ *
  * @Author: Everxys
  * @DATE: 2021/2/4 19:23
  **/
@@ -36,7 +37,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     /**
-     * 放行路径
+     * 放行路径,8081上的
      */
     @Override
     public void configure(WebSecurity web) throws Exception {
@@ -51,7 +52,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 "/webjars/**",
                 "/swagger-resources/**",
                 "/v2/api-docs/**",
-                "/captcha"
+                "/captcha",
+                "/register"
         );
     }
 
@@ -85,15 +87,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
-
+    /**
+     * 通过username获取User
+     */
     @Override
     @Bean
     public UserDetailsService userDetailsService(){
+        //lambda表达式,也就是匿名函数,代表的是传入的参数
         return username ->{
             User user =userService.getUserByUserName(username);
             if(null!=user){
-                //对从数据库中得到的密码进行BCrypt加密,然后返回user
-                user.setPassword(new BCryptPasswordEncoder().encode(user.getPassword()));
                 return user;
             }
             return null;

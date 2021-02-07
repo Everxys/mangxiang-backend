@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b0a6363-0e56-410d-af47-15656e63fe90" name="Default Changelist" comment="" />
+    <list default="true" id="3b0a6363-0e56-410d-af47-15656e63fe90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/config/security/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/config/security/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/config/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/config/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/entity/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/mapper/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/mapper/xml/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/main/java/com/ever/member/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/src/test/java/com/ever/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/src/test/java/com/ever/MemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/config/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/config/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/entity/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/mapper/AdminMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/impl/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/classes/com/ever/member/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangxiang-member/target/test-classes/com/ever/MemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mangxiang-member/target/test-classes/com/ever/MemberTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +39,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,6 +61,7 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1o0WgfdnZ3TxOvqTCmaXaCnJme1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -94,6 +124,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberTest.isUsernameExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mangxiang-member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ever.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ever" />
+      <option name="MAIN_CLASS_NAME" value="com.ever.MemberTest" />
+      <option name="METHOD_NAME" value="isUsernameExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mangxiang-member" />
       <extension name="coverage">
@@ -111,6 +157,7 @@
       <list>
         <item itemvalue="Spring Boot.MemberBoot" />
         <item itemvalue="JUnit.MemberTest.addUser" />
+        <item itemvalue="JUnit.MemberTest.isUsernameExist" />
         <item itemvalue="Application.CodeGenerator" />
       </list>
     </recent_temporary>
@@ -129,7 +176,9 @@
       <workItem from="1612441136103" duration="9378000" />
       <workItem from="1612497327959" duration="21364000" />
       <workItem from="1612529054387" duration="90000" />
-      <workItem from="1612529162455" duration="4415000" />
+      <workItem from="1612529162455" duration="4764000" />
+      <workItem from="1612600395894" duration="15953000" />
+      <workItem from="1612664891674" duration="2791000" />
     </task>
     <servers />
   </component>
@@ -141,10 +190,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="121" y="0" key="#Project_Structure/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612529828778" />
-    <state x="789" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1612449007536">
+    <state x="789" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1612622207694">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="789" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612449007536" />
+    <state x="789" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612622207694" />
     <state x="222" y="268" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612511432448">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -153,38 +202,38 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="350" y="191" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612434744106" />
-    <state width="1237" height="259" key="GridCell.Tab.0.bottom" timestamp="1612534870538">
+    <state width="1237" height="257" key="GridCell.Tab.0.bottom" timestamp="1612667027262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.bottom/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612534870538" />
-    <state width="1237" height="259" key="GridCell.Tab.0.center" timestamp="1612534870538">
+    <state width="1237" height="257" key="GridCell.Tab.0.bottom/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612667027262" />
+    <state width="1237" height="257" key="GridCell.Tab.0.center" timestamp="1612667027262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.center/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612534870538" />
-    <state width="1237" height="259" key="GridCell.Tab.0.left" timestamp="1612534870538">
+    <state width="1237" height="257" key="GridCell.Tab.0.center/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612667027262" />
+    <state width="1237" height="257" key="GridCell.Tab.0.left" timestamp="1612667027262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.left/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612534870538" />
-    <state width="1237" height="259" key="GridCell.Tab.0.right" timestamp="1612534870538">
+    <state width="1237" height="257" key="GridCell.Tab.0.left/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612667027262" />
+    <state width="1237" height="257" key="GridCell.Tab.0.right" timestamp="1612667027262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.right/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612534870538" />
-    <state width="1237" height="259" key="GridCell.Tab.1.bottom" timestamp="1612534870538">
+    <state width="1237" height="257" key="GridCell.Tab.0.right/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612667027262" />
+    <state width="1237" height="257" key="GridCell.Tab.1.bottom" timestamp="1612667027263">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.1.bottom/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612534870538" />
-    <state width="1237" height="259" key="GridCell.Tab.1.center" timestamp="1612534870538">
+    <state width="1237" height="257" key="GridCell.Tab.1.bottom/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612667027263" />
+    <state width="1237" height="257" key="GridCell.Tab.1.center" timestamp="1612667027262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.1.center/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612534870538" />
-    <state width="1237" height="259" key="GridCell.Tab.1.left" timestamp="1612534870538">
+    <state width="1237" height="257" key="GridCell.Tab.1.center/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612667027262" />
+    <state width="1237" height="257" key="GridCell.Tab.1.left" timestamp="1612667027262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.1.left/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612534870538" />
-    <state width="1237" height="259" key="GridCell.Tab.1.right" timestamp="1612534870538">
+    <state width="1237" height="257" key="GridCell.Tab.1.left/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612667027262" />
+    <state width="1237" height="257" key="GridCell.Tab.1.right" timestamp="1612667027263">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.1.right/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612534870538" />
+    <state width="1237" height="257" key="GridCell.Tab.1.right/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612667027263" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1612442682827">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -197,14 +246,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="105" key="extract.method.dialog/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612522528453" />
-    <state x="339" y="77" width="690" height="536" key="find.popup" timestamp="1612531530889">
+    <state x="339" y="77" width="690" height="536" key="find.popup" timestamp="1612622547963">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="339" y="77" width="690" height="536" key="find.popup/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612531530889" />
-    <state x="28" y="6" key="new project wizard" timestamp="1612424122462">
+    <state x="339" y="77" width="690" height="536" key="find.popup/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612622547963" />
+    <state x="28" y="6" key="new project wizard" timestamp="1612667109398">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="28" y="6" key="new project wizard/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612424122462" />
+    <state x="28" y="6" key="new project wizard/0.0.1280.689/-1920.0.1280.689@0.0.1280.689" timestamp="1612667109398" />
     <state x="417" y="102" key="refactoring.ChangeSignatureDialog" timestamp="1612501685359">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
