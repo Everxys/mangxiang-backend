@@ -46,12 +46,18 @@ public class User implements Serializable, UserDetails {
     @ApiModelProperty(value = "密码")
     private String password;
 
+    @ApiModelProperty(value = "性别1男2女")
+    private Integer sex;
 
     @ApiModelProperty(value = "姓名")
     private String name;
 
-    @ApiModelProperty(value = "性别1男2女")
-    private Integer sex;
+    @ApiModelProperty(value = "手机号码")
+    private String phonenumber;
+
+    @ApiModelProperty(value = "收货地址")
+    private String address;
+
 
     @ApiModelProperty(value = "头像")
     private String avatar;
@@ -60,7 +66,7 @@ public class User implements Serializable, UserDetails {
     private String nickname;
 
     @ApiModelProperty(value = "邮箱")
-    private String userEmail;
+    private String email;
 
     @ApiModelProperty(value = "创建时间")
     @TableField(fill = FieldFill.INSERT)
